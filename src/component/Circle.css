@@ -1,10 +1,10 @@
 @media (prefers-reduced-motion: no-preference) {
-  .Coin-logo {
-    animation: Coin-logo-spin infinite 20s linear;
+  .circle-logo {
+    animation: circle-logo-spin infinite 20s linear;
   }
 }
 
-@keyframes Coin-logo-spin {
+@keyframes circle-logo-spin {
   from {
     transform: rotate(0deg);
   }
@@ -14,7 +14,7 @@
   }
 }
 
-.trueCoin {
+.trueCircle {
   display: inline-block;
   margin: 3px;
   width: 20px;
@@ -23,7 +23,7 @@
   background-image: linear-gradient(90deg, rgba(65, 164, 253, 1), rgba(14, 244, 255, 1));
 }
 
-.trueCoin:before {
+.trueCircle:before {
   content: "";
   margin-top: 3px;
   display: inline-block;
@@ -33,7 +33,7 @@
   background-image: conic-gradient(rgba(0, 124, 217, 1) 0deg, rgba(0, 255, 171, 1) 360deg);
 }
 
-.falseCoin {
+.falseCircle {
   display: inline-block;
   margin: 3px;
   width: 20px;
@@ -42,7 +42,7 @@
   background-image: linear-gradient(90deg, rgba(248, 15, 15, 1), rgba(207, 63, 245, 1));
 }
 
-.falseCoin:before {
+.falseCircle:before {
   content: "";
   margin-top: 3px;
   display: inline-block;

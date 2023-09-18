@@ -2,6 +2,24 @@
   text-align: center;
 }
 
+.list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  background-color: #222222;
+}
+
+.list li{
+  margin: 3px;
+  color: red;
+  background-color: #ffffff;
+  font-weight: bold;
+}
+
+.list li a {
+  color: #174651;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -27,10 +45,6 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
